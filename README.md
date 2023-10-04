@@ -56,7 +56,7 @@ SQL Query: [Data Exploration](https://github.com/Raksha-17/Cyclistic-Case-Study/
 Before cleaning the data, I am familiarizing myself with the data to find the inconsistencies.  
 Observations:  
 1. The table below shows the all column names and their data types. The __ride_id__ column is our primary key.  
-   ![image](https://user-images.githubusercontent.com/125132307/226139161-c5209861-7542-4ad6-8d9a-ce0115086e4d.png)  
+   ![image](https://drive.google.com/file/d/1VWP9IohxZyzkOq4uOOcNQ2jum7jASNjS/view)  
 2. The following table shows number of __null values__ in each column.  
    
    ![image](https://user-images.githubusercontent.com/125132307/226182623-1f3378b1-c4b2-403e-8a41-7916aacd3666.png)
