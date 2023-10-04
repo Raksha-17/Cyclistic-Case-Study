@@ -117,12 +117,11 @@ These findings lead to the conclusion that casual commuters travel longer (appro
   
 To further understand the differences in casual and member riders, locations of starting and ending stations can be analysed. Stations with the most trips are considered using filters to draw out the following conclusions.  
   
-![image][Total_trips_Start_End_Locs](https://github.com/Raksha-17/Cyclistic-Case-Study/assets/146487383/dad135d6-0483-4900-a787-c71a11b3cccb)
-  
+![Total_trips_Start_End_Locs](https://github.com/Raksha-17/Cyclistic-Case-Study/assets/146487383/dad135d6-0483-4900-a787-c71a11b3cccb)
   
 Casual riders have frequently started their trips from the stations in vicinity of museums, parks, beach, harbor points and aquarium while members have begun their journeys from stations close to universities, residential areas, restaurants, hospitals, grocery stores, theatre, schools, banks, factories, train stations, parks and plazas.  
   
-![image][Total_trips_Start_End_Locs](https://github.com/Raksha-17/Cyclistic-Case-Study/assets/146487383/dad135d6-0483-4900-a787-c71a11b3cccb)
+![Total_trips_Start_End_Locs](https://github.com/Raksha-17/Cyclistic-Case-Study/assets/146487383/dad135d6-0483-4900-a787-c71a11b3cccb)
 
 Similar trend can be observed in ending station locations. Casual riders end their journay near parks, museums and other recreational sites whereas members end their trips close to universities, residential and commmercial areas. So this proves that casual riders use bikes for leisure activities while members extensively rely on them for daily commute.  
   
