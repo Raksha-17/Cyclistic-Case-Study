@@ -94,25 +94,23 @@ Data Visualization: [Tableau](https://public.tableau.com/authoring/Cyclistic_Dat
 The data is stored appropriately and is now prepared for analysis. I queried multiple relevant tables for the analysis and visualized them in Tableau.  
 The analysis question is: How do annual members and casual riders use Cyclistic bikes differently?  
 First of all, member and casual riders are compared by the type of bikes they are using.  
-![image](https://user-images.githubusercontent.com/125132307/226692931-ecd2eb32-ffce-481a-b3c2-a6c3b4f3ceb7.png)
+![image](![bike_types](https://github.com/Raksha-17/Cyclistic-Case-Study/assets/146487383/6b883d54-de4c-40cb-a272-5734307becae)
   
-The members make 59.7% of the total while remaining 40.3% constitutes casual riders. Each bike type chart shows percentage from the total. Most used bike is classic bike followed by the electric bike. Docked bikes are used the least by only casual riders. 
+The members make 68.29% of the total while remaining 31.71% constitutes casual riders. Each bike type chart shows percentage from the total. Most used bike is classic bike followed by the docked bike. electric bikes are used the most by the members. 
   
 Next the number of trips distributed by the months, days of the week and hours of the day are examined.  
   
-![image](https://user-images.githubusercontent.com/125132307/230122705-2f157258-e673-4fc5-bbed-88050b6aae68.png)
-![image](https://user-images.githubusercontent.com/125132307/230122935-8d0889c3-f0ff-43ce-94ab-393f2e230bee.png)
-  
+![image](![Total_trips_Per_Month_Week_Hour (2)](https://github.com/Raksha-17/Cyclistic-Case-Study/assets/146487383/f643d763-428d-41c6-b902-019e5eee9de2)
+
 __Months:__ When it comes to monthly trips, both casual and members exhibit comparable behavior, with more trips in the spring and summer and fewer in the winter. The gap between casuals and members is closest in the month of july in summmer.   
 __Days of Week:__ When the days of the week are compared, it is discovered that casual riders make more journeys on the weekends while members show a decline over the weekend in contrast to the other days of the week.  
-__Hours of the Day:__ The members shows 2 peaks throughout the day in terms of number of trips. One is early in the morning at around 6 am to 8 am and other is in the evening at around 4 pm to 8 pm while number of trips for casual riders increase consistently over the day till evening and then decrease afterwards.  
+__Hours of the Day:__ The members shows 2 peaks throughout the day in terms of number of trips. One is early in the morning at around 6 am to 8 am and other is in the evening at around 4 pm to 6 pm while number of trips for casual riders increase consistently over the day till evening and then decrease afterwards.  
   
 We can infer from the previous observations that member may be using bikes for commuting to and from the work in the week days while casual riders are using bikes throughout the day, more frequently over the weekends for leisure purposes. Both are most active in summer and spring.  
   
 Ride duration of the trips are compared to find the differences in the behavior of casual and member riders.  
   
-![image](https://user-images.githubusercontent.com/125132307/230164787-3ea46ee9-aa5f-486b-9dd1-8f43dfce8e1c.png)  
-![image](https://user-images.githubusercontent.com/125132307/230164889-1c7943d2-7ada-411b-adc7-a043eb480ba1.png)
+![image](![Avg_Ride_Duration_Per_Month_Week_Hour (3)](https://github.com/Raksha-17/Cyclistic-Case-Study/assets/146487383/5f10ee7c-fa1b-402f-8ff6-e7bb2c36220d)  
   
 Take note that casual riders tend to cycle longer than members do on average. The length of the average journey for members doesn't change throughout the year, week, or day. However, there are variations in how long casual riders cycle. In the spring and summer, on weekends, and from 10 am to 2 pm during the day, they travel greater distances. Between five and eight in the morning, they have brief trips.
   
