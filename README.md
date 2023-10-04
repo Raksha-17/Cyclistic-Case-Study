@@ -8,8 +8,8 @@ In this case study, I will perform many real-world tasks of a junior data analys
 Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) [accessed on 09/25/23]  
 
 SQL Queries:  
-[0.) Data Editing (https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/0.)%20Data%20Editing.sql)
-[1.) Joining Data] (https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/1.)%20Data%20Joining.sql)
+[0.) Data Editing](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/0.)%20Data%20Editing.sql)
+[1.) Joining Data](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/1.)%20Data%20Joining.sql)
 [2.) Data Exploration](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/2.)%20Data%20Exploration.sql)  
 [3.) Data Cleaning](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/3.)%20Data%20Cleaning.sql)  
 [4.) Data Analysis](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/4.)%20Data%20Analysis.sql)  
