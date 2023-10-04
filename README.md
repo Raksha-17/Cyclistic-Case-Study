@@ -8,12 +8,13 @@ In this case study, I will perform many real-world tasks of a junior data analys
 Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) [accessed on 09/25/23]  
 
 SQL Queries:  
-[01. Data Combining] (https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/1.)%20Data%20Joining.sql)
-[02. Data Exploration](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/02.%20Data%20Exploration.sql)  
-[03. Data Cleaning](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/03.%20Data%20Cleaning.sql)  
-[04. Data Analysis](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/04.%20Data%20Analysis.sql)  
+[0.) Data Editing (https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/0.)%20Data%20Editing.sql)
+[1.) Joining Data] (https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/1.)%20Data%20Joining.sql)
+[2.) Data Exploration](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/2.)%20Data%20Exploration.sql)  
+[3.) Data Cleaning](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/3.)%20Data%20Cleaning.sql)  
+[4.) Data Analysis](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/4.)%20Data%20Analysis.sql)  
   
-Data Visualizations: [Tableau](https://public.tableau.com/app/profile/somia.nasir/viz/bike-tripdata-casestudy/Dashboard1#1)  
+Data Visualizations: [Tableau](https://public.tableau.com/authoring/Cyclistic_Data_Viz_Case-Study/bike_types#1)  
 ## Background
 ### Cyclistic
 A bike-share program that features more than 5,800 bicycles and 600 docking stations. Cyclistic sets itself apart by also offering reclining bikes, hand tricycles, and cargo bikes, making bike-share more inclusive to people with disabilities and riders who can’t use a standard two-wheeled bike. The majority of riders opt for traditional bikes; about 8% of riders use the assistive options. Cyclistic users are more likely to ride for leisure, but about 30% use them to commute to work each day.   
