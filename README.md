@@ -9,9 +9,13 @@ Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html
 
 SQL Queries:  
 [0.Data Editing](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/0.Data%20Editing.sql)    
+
 [1.Joining Data](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/1.Data%20Joining.sql)       
+
 [2.Data Exploration](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/2.Data%20Exploration.sql)  
+
 [3.Data Cleaning](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/3.Data%20Cleaning.sql)  
+
 [4.Data Analysis](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/4.Data%20Analysis.sql)  
   
 Data Visualizations: [Tableau](https://public.tableau.com/authoring/Cyclistic_Data_Viz_Case-Study/bike_types#1)  
@@ -59,24 +63,25 @@ Observations:
    ![image](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/Images/bq-results-20231001-021815-1696126749408.png%20(1).csv)  
 2. The following table shows number of __null values__ in each column.  
    
-   ![image](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/Images/bq-results-20231001-021815-1696126749408.png%20(1).csv)
+   ![image](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/Images/bq-results-20231004-200249-1696451196561.csv)
    Note that some columns have same number of missing values. This may be due to missing information in the same row i.e. station's name and id for the same station and latitude and longitude for the same ending station.  
 3. As ride_id has no null values, let's use it to check for duplicates.  
-   ![image](https://user-images.githubusercontent.com/125132307/226181500-38f9b3ca-811d-4612-87ea-87b6d1d3843e.png)
-   There are no __duplicate__ rows in the data.  
+   ![image](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/Images/script_job_a6c833b47862472f4af53a2d24e4410b_2.csv)
+   There are 209 __duplicate__ rows in the data.  
    
 4. All __ride_id__ values have length of 16 so no need to clean it.
-5. There are 3 unique types of bikes(__rideable_type__) in our data.
-   ![image](https://user-images.githubusercontent.com/125132307/226203372-10c60802-0880-4b17-9ac0-2177ab862974.png)
-6. The __started_at__ and __ended_at__ shows start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format. New column ride_length can be created to find the total trip duration. There are 5360 trips which has duration longer than a day and 122283 trips having less than a minute duration or having end time earlier than start time so need to remove them. Other columns day_of_week and month can also be helpful in analysis of trips at different times in a year.
-7. Total of 833064 rows have both __start_station_name__ and __start_station_id__ missing which needs to be removed.  
-8. Total of 892742 rows have both __end_station_name__ and __end_station_id__ missing which needs to be removed.
-9. Total of 5858 rows have both __end_lat__ and __end_lng__ missing which needs to be removed.
-10. __member_casual__ column has 2 uniqued values as member or casual rider.
-    ![image](https://user-images.githubusercontent.com/125132307/226212522-aec43490-5d86-4e2e-a92e-b3bf52050415.png)
-11. Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in analysis but can be used to visualise a map.
+5. ![image](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/Images/script_job_adacc5d6cf1c9f9d73e47578d52b5372_3.csv)
+6. There are 3 unique types of bikes(__rideable_type__) in our data.
+   ![image](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/Images/script_job_1c55a1ff093215e21e2cbed92ba57174_4.csv)
+7. The __started_at__ and __ended_at__ shows start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format. New column ride_length can be created to find the total trip duration. There are 2856 trips which has duration longer than a day and 63011 trips having less than a minute duration or having end time earlier than start time so need to remove them. Other columns day_of_week and month can also be helpful in analysis of trips at different times in a year.
+8. Total of 164932 rows have both __start_station_name__ and __start_station_id__ missing which needs to be removed.  
+9. Total of 179615 rows have both __end_station_name__ and __end_station_id__ missing which needs to be removed.
+10. Total of 4255 rows have both __end_lat__ and __end_lng__ missing which needs to be removed.
+11. __member_casual__ column has 2 uniqued values as member or casual rider.
+    ![image](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/Images/script_job_b9536d303533484358deba7997f1d3f8_13.csv)
+12. Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in analysis but can be used to visualise a map.
 ### Data Cleaning
-SQL Query: [Data Cleaning](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/03.%20Data%20Cleaning.sql)  
+SQL Query: [Data Cleaning](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/3.Data%20Cleaning.sql)  
 1. All the rows having missing values are deleted.  
 2. 3 more columns ride_length for duration of the trip, day_of_week and month are added.  
 3. Trips with duration less than a minute and longer than a day are excluded.
