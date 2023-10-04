@@ -66,21 +66,18 @@ Observations:
    
    ![image](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/Images/bq-results-20231004-200249-1696451196561.csv)
    Note that some columns have same number of missing values. This may be due to missing information in the same row i.e. station's name and id for the same station and latitude and longitude for the same ending station.  
-3. As ride_id has no null values, let's use it to check for duplicates.  
-   ![image](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/Images/script_job_a6c833b47862472f4af53a2d24e4410b_2.csv)
-   There are 209 __duplicate__ rows in the data.  
    
-4. All __ride_id__ values have length of 16 so no need to clean it.
+3. All __ride_id__ values have length of 16 so no need to clean it.
  ![image](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/Images/script_job_adacc5d6cf1c9f9d73e47578d52b5372_3.csv)
-5. There are 3 unique types of bikes(__rideable_type__) in our data.
+4. There are 3 unique types of bikes(__rideable_type__) in our data.
    ![image](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/Images/script_job_1c55a1ff093215e21e2cbed92ba57174_4.csv)
-6. The __started_at__ and __ended_at__ shows start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format. New column ride_length can be created to find the total trip duration. There are 2856 trips which has duration longer than a day and 63011 trips having less than a minute duration or having end time earlier than start time so need to remove them. Other columns day_of_week and month can also be helpful in analysis of trips at different times in a year.
-7. Total of 164932 rows have both __start_station_name__ and __start_station_id__ missing which needs to be removed.  
-8. Total of 179615 rows have both __end_station_name__ and __end_station_id__ missing which needs to be removed.
-9. Total of 4255 rows have both __end_lat__ and __end_lng__ missing which needs to be removed.
-10. __member_casual__ column has 2 uniqued values as member or casual rider.
+5. The __started_at__ and __ended_at__ shows start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format. New column ride_length can be created to find the total trip duration. There are 2856 trips which has duration longer than a day and 63011 trips having less than a minute duration or having end time earlier than start time so need to remove them. Other columns day_of_week and month can also be helpful in analysis of trips at different times in a year.
+6. Total of 164932 rows have both __start_station_name__ and __start_station_id__ missing which needs to be removed.  
+7. Total of 179615 rows have both __end_station_name__ and __end_station_id__ missing which needs to be removed.
+8. Total of 4255 rows have both __end_lat__ and __end_lng__ missing which needs to be removed.
+9. __member_casual__ column has 2 uniqued values as member or casual rider.
     ![image](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/Images/script_job_b9536d303533484358deba7997f1d3f8_13.csv)
-11. Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in analysis but can be used to visualise a map.
+10. Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in analysis but can be used to visualise a map.
 ### Data Cleaning
 SQL Query: [Data Cleaning](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/3.Data%20Cleaning.sql)  
 1. All the rows having missing values are deleted.  
@@ -93,8 +90,9 @@ SQL Query: [Data Analysis](https://github.com/Raksha-17/Cyclistic-Case-Study/blo
 Data Visualization: [Tableau](https://public.tableau.com/authoring/Cyclistic_Data_Viz_Case-Study/bike_types#1)  
 The data is stored appropriately and is now prepared for analysis. I queried multiple relevant tables for the analysis and visualized them in Tableau.  
 The analysis question is: How do annual members and casual riders use Cyclistic bikes differently?  
-First of all, member and casual riders are compared by the type of bikes they are using.  
-![bike_types](https://github.com/Raksha-17/Cyclistic-Case-Study/assets/146487383/6b883d54-de4c-40cb-a272-5734307becae)
+First of all, member and casual riders are compared by the type of bikes they are using. 
+![new_bike_types](https://github.com/Raksha-17/Cyclistic-Case-Study/assets/146487383/3f9d4280-4fb9-46a5-a15f-bdddb89c452f)
+
 The members make 68.29% of the total while remaining 31.71% constitutes casual riders. Each bike type chart shows percentage from the total. Most used bike is classic bike followed by the docked bike. electric bikes are used the most by the members. 
   
 Next the number of trips distributed by the months, days of the week and hours of the day are examined.  
