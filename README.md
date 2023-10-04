@@ -59,7 +59,7 @@ Observations:
    ![image](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/Images/bq-results-20231001-021815-1696126749408.png%20(1).csv)  
 2. The following table shows number of __null values__ in each column.  
    
-   ![image](https://user-images.githubusercontent.com/125132307/226182623-1f3378b1-c4b2-403e-8a41-7916aacd3666.png)
+   ![image](https://github.com/Raksha-17/Cyclistic-Case-Study/blob/main/Images/bq-results-20231001-021815-1696126749408.png%20(1).csv)
    Note that some columns have same number of missing values. This may be due to missing information in the same row i.e. station's name and id for the same station and latitude and longitude for the same ending station.  
 3. As ride_id has no null values, let's use it to check for duplicates.  
    ![image](https://user-images.githubusercontent.com/125132307/226181500-38f9b3ca-811d-4612-87ea-87b6d1d3843e.png)
