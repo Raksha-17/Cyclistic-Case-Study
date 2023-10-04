@@ -1,0 +1,15 @@
+day_of_week,member_casual,total_trips
+SUN,casual,242713
+MON,casual,131039
+SAT,casual,296754
+FRI,casual,188455
+THURS,casual,150913
+WED,casual,141395
+TUES,casual,127510
+MON,member,276207
+THURS,member,310516
+TUES,member,298511
+WED,member,311855
+SAT,member,292739
+FRI,member,307400
+SUN,member,254494
